@@ -1,16 +1,17 @@
+import React from "react";
 
-import React from 'react';
+import Display from "./display";
+import Keypad from "./keypad";
+import History from "./history";
 
-import Display from './display';
-import Keypad  from './keypad';
-
-const Calculator = (props)=> {
+const Calculator = props => {
   return (
     <>
-      <Display/>
-      <Keypad/>
+      <Display />
+      <History />
+      <Keypad />
     </>
   );
-}
+};
 
 export default Calculator;
